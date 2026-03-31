@@ -1,0 +1,74 @@
+[3] 16:37:17: Log started for 'C:\Tosca_Projects\Tosca_Workspaces\Practices Tosca testing\Practices Tosca testing.tws'
+[3] 16:37:17: Log level: 4
+[3] 16:37:17: Release: 25.1.0.3382
+[3] 16:37:17: Execution Approval is disabled.
+[3] 16:37:17: No service discovery configured.
+[3] 16:37:17:  + AccessibilityTestingUI: AccessibilityTestingUI 25.1.0.3382 (3382)
+[3] 16:37:17:  + CloudDistributedExecutionAddIn: CloudDistributedExecutionAddIn 25.1.0.3382 (3382)
+[3] 16:37:17:  + DistributedExecutionAddIn: DistributedExecutionAddIn 25.1.0.3382 (3382)
+[3] 16:37:17:  + ElasticExecutionGridAddIn: ElasticExecutionGridAddIn 25.1.0.3382 (3382)
+[3] 16:37:17:  - ExecutionApprovalAddIn: ExecutionApprovalAddIn 25.1.0.3382 (3382)
+[3] 16:37:17:  + ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 25.1.0.3382 (3382)
+[3] 16:37:17:  + ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 25.1.0.3382 (3382)
+[3] 16:37:17:  + IntegrationManagementAddIn: IntegrationManagementAddIn 25.1.0.3382 (3382)
+    + : SAPSolutionManagerIntegration 25.1.0.3382 (3382)
+[3] 16:37:18:  + QTestIntegrationAddIn: QTestIntegrationAddIn 25.1.0.3382 (3382)
+[3] 16:37:18:  + RemoteControl: RemoteControlAddIn 25.1.0.3382 (3382)
+[3] 16:37:18:  + Reporting: ReportingAddIn 25.1.0.3382 (3382)
+[3] 16:37:18:  + ReportingUI: ReportingUIAddIn 25.1.0.3382 (3382)
+[3] 16:37:18:  + RequirementsManagementAddIn: RequirementsManagement 25.1.0.3382 (3382)
+[3] 16:37:18:  + RequirementsManagementUIAddIn: RequirementsManagementUI 25.1.0.3382 (3382)
+[3] 16:37:18:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 25.1.0.3382 (3382)
+[3] 16:37:18:  + TestCaseDesign: TestCaseDesign 25.1.0.3382 (3382)
+[3] 16:37:18: Opened from Workspace File 'C:\Tosca_Projects\Tosca_Workspaces\Practices Tosca testing\Practices Tosca testing.tws'
+[3] 16:37:18: Trying to authenticate ldap user SriJo against workspace
+[3] 16:37:22: Error getting ldap domain: The specified domain does not exist or cannot be contacted. DESKTOP-1OHAOMC
+[3] 16:37:25: Error getting NativeID From WindowsUserSystem.Runtime.InteropServices.COMException (0x8007054B): The specified domain either does not exist or could not be contacted.
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.PropertyValueCollection.PopulateList()
+   at System.DirectoryServices.PropertyValueCollection..ctor(DirectoryEntry entry, String propertyName)
+   at System.DirectoryServices.PropertyCollection.get_Item(String propertyName)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.RefreshCache()
+   at Tricentis.TCCore.Base.Ownership.LDAP.LDAPAuthentication.GetNativeID(String username, String domainName, String password, Boolean processIdentityMustMatch, Action`1 ldapsConnectionFailedAction)
+[3] 16:37:25: Failed to authenticate ldap user against workspace
+[3] 16:37:35: Workspace.Login for 'Joshna'succeeded
+[2] 16:37:35: CommanderAssemblyResolver: Unable to resolve: System.Collections.Specialized.XmlSerializers, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+[4] 16:37:40:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 16:37:40:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 16:37:40:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 16:37:40:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 16:37:40:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 16:37:40:  ShowStatusInfo: 'Refresh navigation view 'Data Integrity Testing''
+[4] 16:37:40:  ShowStatusInfo: 'Refresh navigation view 'Nop Commerce''
+[4] 16:37:40:  ShowStatusInfo: 'Ready'
+[4] 16:37:40:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 16:37:40:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 16:37:40:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 16:37:40:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 16:37:40:  ShowStatusInfo: 'Refresh detail view 'Data Integrity Testing''
+[4] 16:37:40:  ShowStatusInfo: 'Refresh detail view 'Nop Commerce''
+[4] 16:37:40:  ShowStatusInfo: 'Ready'
+[4] 16:37:40:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 16:37:40:  ShowStatusInfo: 'Refresh all finished'
+[3] 16:37:40: OpenWorkspace took 00:00:23.1903762 to finish
+[3] 16:37:40: File Service is disabled.
+[4] 16:37:44:  ShowStatusInfo: '1 object selected'
+[4] 16:37:44:  ShowStatusInfo: 'Ready'
+[4] 16:38:40:  ShowStatusInfo: '1 object selected'
+[4] 16:38:40:  ShowStatusInfo: 'Ready'
+[4] 16:39:14:  ShowStatusInfo: 'Refresh navigation view 'Data Integrity Testing''
+[4] 16:39:14:  ShowStatusInfo: 'Ready'
+[4] 16:39:14:  ShowStatusInfo: 'Refresh detail view 'Data Integrity Testing''
+[4] 16:39:14:  ShowStatusInfo: 'Ready'
+[4] 16:39:14:  ShowStatusInfo: 'Refresh view finished'
+[4] 16:39:19:  ShowStatusInfo: 'Ready'
+[4] 16:39:24:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 16:39:24:  ShowStatusInfo: 'Ready'
+[4] 16:39:24:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 16:39:24:  ShowStatusInfo: 'Ready'
+[4] 16:39:24:  ShowStatusInfo: 'Refresh view finished'
+[4] 16:39:29:  ShowStatusInfo: 'Ready'
+[3] 16:39:35: Layout not saved: No Panels or Tabbed Documents
+[3] 16:39:37: Closing Workspace!
+[3] 16:39:37: Log closed!

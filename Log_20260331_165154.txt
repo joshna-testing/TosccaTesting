@@ -1,0 +1,68 @@
+[3] 16:51:54: Log started for 'C:\Tosca_Projects\Tosca_Workspaces\Practices Tosca testing\Practices Tosca testing.tws'
+[3] 16:51:54: Log level: 4
+[3] 16:51:54: Release: 25.1.0.3382
+[3] 16:51:54: Execution Approval is disabled.
+[3] 16:51:54: No service discovery configured.
+[3] 16:51:54:  + AccessibilityTestingUI: AccessibilityTestingUI 25.1.0.3382 (3382)
+[3] 16:51:54:  + CloudDistributedExecutionAddIn: CloudDistributedExecutionAddIn 25.1.0.3382 (3382)
+[3] 16:51:54:  + DistributedExecutionAddIn: DistributedExecutionAddIn 25.1.0.3382 (3382)
+[3] 16:51:54:  + ElasticExecutionGridAddIn: ElasticExecutionGridAddIn 25.1.0.3382 (3382)
+[3] 16:51:54:  - ExecutionApprovalAddIn: ExecutionApprovalAddIn 25.1.0.3382 (3382)
+[3] 16:51:54:  + ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 25.1.0.3382 (3382)
+[3] 16:51:54:  + ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 25.1.0.3382 (3382)
+[3] 16:51:54:  + IntegrationManagementAddIn: IntegrationManagementAddIn 25.1.0.3382 (3382)
+    + : SAPSolutionManagerIntegration 25.1.0.3382 (3382)
+[3] 16:51:54:  + QTestIntegrationAddIn: QTestIntegrationAddIn 25.1.0.3382 (3382)
+[3] 16:51:54:  + RemoteControl: RemoteControlAddIn 25.1.0.3382 (3382)
+[3] 16:51:54:  + Reporting: ReportingAddIn 25.1.0.3382 (3382)
+[3] 16:51:54:  + ReportingUI: ReportingUIAddIn 25.1.0.3382 (3382)
+[3] 16:51:54:  + RequirementsManagementAddIn: RequirementsManagement 25.1.0.3382 (3382)
+[3] 16:51:54:  + RequirementsManagementUIAddIn: RequirementsManagementUI 25.1.0.3382 (3382)
+[3] 16:51:54:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 25.1.0.3382 (3382)
+[3] 16:51:54:  + TestCaseDesign: TestCaseDesign 25.1.0.3382 (3382)
+[3] 16:51:54: Opened from Workspace File 'C:\Tosca_Projects\Tosca_Workspaces\Practices Tosca testing\Practices Tosca testing.tws'
+[3] 16:51:54: Trying to authenticate ldap user SriJo against workspace
+[3] 16:51:58: Error getting ldap domain: The specified domain does not exist or cannot be contacted. DESKTOP-1OHAOMC
+[3] 16:52:01: Error getting NativeID From WindowsUserSystem.Runtime.InteropServices.COMException (0x8007054B): The specified domain either does not exist or could not be contacted.
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.PropertyValueCollection.PopulateList()
+   at System.DirectoryServices.PropertyValueCollection..ctor(DirectoryEntry entry, String propertyName)
+   at System.DirectoryServices.PropertyCollection.get_Item(String propertyName)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.RefreshCache()
+   at Tricentis.TCCore.Base.Ownership.LDAP.LDAPAuthentication.GetNativeID(String username, String domainName, String password, Boolean processIdentityMustMatch, Action`1 ldapsConnectionFailedAction)
+[3] 16:52:01: Failed to authenticate ldap user against workspace
+[3] 16:52:17: Workspace.Login for 'Joshna'succeeded
+[0] 16:52:18: ShowDetailedErrorMessage  (fatal)
+[0] 16:52:18: System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'SQLiteConnection'.
+   at Tricentis.TCCore.Persistency.Repository.ClusterRepository.Database.DbAdaptor.BeginTransaction(IsolationLevel isolationLevel)
+   at Tricentis.TCCore.Persistency.Repository.ClusterRepository.Database.SQLite.SQLiteAdaptor.BeginTransaction(IsolationLevel isolationLevel)
+   at Tricentis.TCCore.Persistency.ObjectHandler.EnsureReadOnlyTransaction()
+   at Tricentis.TCCore.Persistency.ObjectHandler.GetOrLoadObjects(HashSet`1 surrogateList)
+   at Tricentis.TCCore.Persistency.PORef.PObjectRefList`1.LoadAll()
+   at Tricentis.TCCore.Persistency.PORef.PObjectRefList`1.GetEnumerator()+MoveNext()
+   at Tricentis.TCCore.Persistency.PersistableObject.GetDropTasks(IEnumerable`1 dropObjects)
+   at Tricentis.TCCore.Persistency.PersistableObject.GetTasks(List`1 taskList)
+   at Tricentis.TCCore.Base.TCObject.GetTasks(List`1 taskList)
+   at Tricentis.TCCore.Base.Folders.OwnedItem.GetTasks(List`1 taskList)
+   at Tricentis.TCCore.BusinessObjects.Folders.TCFolder.GetTasks(List`1 taskList)
+   at Tricentis.TCCore.BusinessObjects.Folders.ComponentFolder.TCComponentFolder.GetTasks(List`1 taskList)
+   at Tricentis.TCCore.ModelViewConnector.Nodes.AbstractNode.GetTasks(List`1 taskList, Boolean excludeTasksRequiringChangeRights)
+   at Tricentis.TCCore.GUI.Tasks.TaskGetter.GetNormalTasks(List`1 ownersList, List`1& models)
+   at Tricentis.TCCore.GUI.Menu.UpdateConnector.Refresh()
+   at Tricentis.TCCore.GUI.WorkspaceSession.set_TcActivePerspective(CommanderPerspective value)
+   at Tricentis.TCCore.GUI.WorkspaceSession.ActivatePerspective(BaseDocument document)
+   at Tricentis.TCCore.GUI.WorkspaceSession.TcTabbedView_DocumentActivated(Object sender, DocumentEventArgs e, Boolean async)
+   at Tricentis.TCCore.GUI.WorkspaceSession.TcTabbedView_DocumentActivated(Object sender, DocumentEventArgs e)
+   at DevExpress.XtraBars.Docking2010.Views.BaseView.RaiseDocumentActivated(BaseDocument document)
+   at DevExpress.XtraBars.Docking2010.Views.BaseView.OnDocumentActivated(BaseDocument document)
+   at DevExpress.XtraBars.Docking2010.Views.BaseView.SetActiveDocumentCore(BaseDocument document)
+   at DevExpress.XtraBars.Docking2010.Views.BaseView.ActivateDocument(Control control)
+   at DevExpress.XtraBars.Docking2010.ContainerControlManagementStrategy.OnDocumentContainerActivate(Object sender, EventArgs e)
+   at DevExpress.XtraBars.Docking2010.DocumentsHost.RaiseDocumentContainerActivate()
+   at DevExpress.XtraBars.Docking2010.DocumentsHost.SetActiveContainerCore(DocumentContainer documentContainer)
+   at DevExpress.XtraBars.Docking2010.ContainerControlManagementStrategy.CheckFocus(Int32 Msg, BaseView view, Control control, IntPtr wParam)
+   at DevExpress.XtraBars.Docking2010.Views.BaseDocumentCollection.CheckFocus(Int32 msg, Control control, IntPtr wParam)
+   at DevExpress.XtraBars.Docking2010.Views.BaseDocumentCollection.DevExpress.Utils.Win.Hook.IHookController.InternalPostFilterMessage(Int32 Msg, Control wnd, IntPtr HWnd, IntPtr WParam, IntPtr LParam)
+   at DevExpress.Utils.Win.Hook.HookManager.WndHook(Int32 ncode, IntPtr wParam, IntPtr lParam)

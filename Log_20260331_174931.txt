@@ -1,0 +1,96 @@
+[3] 17:49:31: Log started for 'C:\Tosca_Projects\Tosca_Workspaces\Practices Tosca testing\Practices Tosca testing.tws'
+[3] 17:49:31: Log level: 4
+[3] 17:49:31: Release: 25.1.0.3382
+[3] 17:49:31: Execution Approval is disabled.
+[3] 17:49:31: No service discovery configured.
+[3] 17:49:31:  + AccessibilityTestingUI: AccessibilityTestingUI 25.1.0.3382 (3382)
+[3] 17:49:31:  + CloudDistributedExecutionAddIn: CloudDistributedExecutionAddIn 25.1.0.3382 (3382)
+[3] 17:49:31:  + DistributedExecutionAddIn: DistributedExecutionAddIn 25.1.0.3382 (3382)
+[3] 17:49:31:  + ElasticExecutionGridAddIn: ElasticExecutionGridAddIn 25.1.0.3382 (3382)
+[3] 17:49:31:  - ExecutionApprovalAddIn: ExecutionApprovalAddIn 25.1.0.3382 (3382)
+[3] 17:49:31:  + ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 25.1.0.3382 (3382)
+[3] 17:49:31:  + ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 25.1.0.3382 (3382)
+[3] 17:49:31:  + IntegrationManagementAddIn: IntegrationManagementAddIn 25.1.0.3382 (3382)
+    + : SAPSolutionManagerIntegration 25.1.0.3382 (3382)
+[3] 17:49:31:  + QTestIntegrationAddIn: QTestIntegrationAddIn 25.1.0.3382 (3382)
+[3] 17:49:31:  + RemoteControl: RemoteControlAddIn 25.1.0.3382 (3382)
+[3] 17:49:31:  + Reporting: ReportingAddIn 25.1.0.3382 (3382)
+[3] 17:49:31:  + ReportingUI: ReportingUIAddIn 25.1.0.3382 (3382)
+[3] 17:49:31:  + RequirementsManagementAddIn: RequirementsManagement 25.1.0.3382 (3382)
+[3] 17:49:31:  + RequirementsManagementUIAddIn: RequirementsManagementUI 25.1.0.3382 (3382)
+[3] 17:49:31:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 25.1.0.3382 (3382)
+[3] 17:49:31:  + TestCaseDesign: TestCaseDesign 25.1.0.3382 (3382)
+[3] 17:49:31: Opened from Workspace File 'C:\Tosca_Projects\Tosca_Workspaces\Practices Tosca testing\Practices Tosca testing.tws'
+[3] 17:49:31: Trying to authenticate ldap user SriJo against workspace
+[3] 17:49:36: Error getting ldap domain: The specified domain does not exist or cannot be contacted. DESKTOP-1OHAOMC
+[3] 17:49:38: Error getting NativeID From WindowsUserSystem.Runtime.InteropServices.COMException (0x8007054B): The specified domain either does not exist or could not be contacted.
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.PropertyValueCollection.PopulateList()
+   at System.DirectoryServices.PropertyValueCollection..ctor(DirectoryEntry entry, String propertyName)
+   at System.DirectoryServices.PropertyCollection.get_Item(String propertyName)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.RefreshCache()
+   at Tricentis.TCCore.Base.Ownership.LDAP.LDAPAuthentication.GetNativeID(String username, String domainName, String password, Boolean processIdentityMustMatch, Action`1 ldapsConnectionFailedAction)
+[3] 17:49:38: Failed to authenticate ldap user against workspace
+[3] 17:49:48: Workspace.Login for 'Admin'succeeded
+[2] 17:49:48: CommanderAssemblyResolver: Unable to resolve: System.Collections.Specialized.XmlSerializers, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+[4] 17:49:55:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 17:49:55:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 17:49:55:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 17:49:55:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 17:49:55:  ShowStatusInfo: 'Refresh navigation view 'Nop Commerce''
+[4] 17:49:55:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 17:49:55:  ShowStatusInfo: 'Ready'
+[4] 17:49:55:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 17:49:55:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 17:49:55:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 17:49:55:  ShowStatusInfo: 'Refresh detail view 'Nop Commerce''
+[4] 17:49:55:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 17:49:56:  ShowStatusInfo: 'Ready'
+[4] 17:49:56:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 17:49:56:  ShowStatusInfo: 'Refresh all finished'
+[3] 17:49:56: OpenWorkspace took 00:00:25.4595530 to finish
+[3] 17:49:56: File Service is disabled.
+[4] 17:50:01:  ShowStatusInfo: 'Ready'
+[4] 17:50:02:  ShowStatusInfo: '1 object selected'
+[4] 17:50:02:  ShowStatusInfo: 'Ready'
+[4] 17:50:15:  ShowStatusInfo: '1 object selected'
+[4] 17:50:15:  ShowStatusInfo: 'Ready'
+[4] 17:50:17:  ShowStatusInfo: 'Checkin all: Connecting to Common Repository (timeout in 5 seconds) ... '
+[4] 17:50:17:  ShowStatusInfo: 'Checkin all: Connecting to Common Repository succeeded'
+[3] 17:50:17: QTestIntegrationAddIn beginning to Export to QTest
+[3] 17:50:17: QTestIntegrationAddIn finished exporting objects to QTest
+[3] 17:50:17: QTestIntegrationAddIn beginning to unlink objects from QTest
+[3] 17:50:17: LinkTcToQTestService grouping testcases by same endpoint
+[3] 17:50:17: UnlinkTestEventService grouping TestEvents by same endpoint
+[3] 17:50:17: QTestIntegrationAddIn finished unlinking objects from QTest
+[4] 17:50:28:  ShowStatusInfo: 'Connecting to GitHub repository...'
+[3] 17:50:33: ObjectVersioning is enabled
+[3] 17:50:33: ObjectVersioning: Start collecting deleted objects
+[3] 17:50:33: ObjectVersioning: Finished collecting deleted objects
+[3] 17:50:33: ObjectVersioning: Begin creating changeset for 0 clusters.
+[3] 17:50:33: ObjectVersioning: Finished creating changeset.
+[4] 17:50:33:  ShowStatusInfo: 'BeforeTeamTaskCommit'
+[4] 17:50:33:  ShowStatusInfo: 'Ready'
+[4] 17:50:33:  ShowStatusInfo: 'Checkin all finalizing ...'
+[4] 17:50:33:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 17:50:33:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 17:50:33:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 17:50:33:  ShowStatusInfo: 'Refresh navigation view 'Nop Commerce''
+[4] 17:50:33:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 17:50:33:  ShowStatusInfo: 'Ready'
+[4] 17:50:33:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 17:50:33:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 17:50:33:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 17:50:33:  ShowStatusInfo: 'Refresh detail view 'Nop Commerce''
+[4] 17:50:33:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 17:50:33:  ShowStatusInfo: 'Ready'
+[4] 17:50:33:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 17:50:33:  ShowStatusInfo: 'Refresh all finished'
+[4] 17:50:33:  ShowStatusInfo: 'Checkin all finished'
+[3] 17:50:33: Task 'Checkin all' finished
+[4] 17:50:38:  ShowStatusInfo: 'Ready'
+[4] 17:50:55:  ShowStatusInfo: '1 object selected'
+[4] 17:50:55:  ShowStatusInfo: 'Ready'
+[3] 17:51:12: Closing Workspace!
+[3] 17:51:12: Log closed!

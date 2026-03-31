@@ -1,0 +1,98 @@
+[3] 18:27:19: Log started for 'C:\Tosca_Projects\Tosca_Workspaces\Practices Tosca testing\Practices Tosca testing.tws'
+[3] 18:27:19: Log level: 4
+[3] 18:27:19: Release: 25.1.0.3382
+[3] 18:27:19: Execution Approval is disabled.
+[3] 18:27:19: No service discovery configured.
+[3] 18:27:19:  + AccessibilityTestingUI: AccessibilityTestingUI 25.1.0.3382 (3382)
+[3] 18:27:19:  + CloudDistributedExecutionAddIn: CloudDistributedExecutionAddIn 25.1.0.3382 (3382)
+[3] 18:27:19:  + DistributedExecutionAddIn: DistributedExecutionAddIn 25.1.0.3382 (3382)
+[3] 18:27:19:  + ElasticExecutionGridAddIn: ElasticExecutionGridAddIn 25.1.0.3382 (3382)
+[3] 18:27:19:  - ExecutionApprovalAddIn: ExecutionApprovalAddIn 25.1.0.3382 (3382)
+[3] 18:27:19:  + ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 25.1.0.3382 (3382)
+[3] 18:27:19:  + ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 25.1.0.3382 (3382)
+[3] 18:27:19:  + IntegrationManagementAddIn: IntegrationManagementAddIn 25.1.0.3382 (3382)
+    + : SAPSolutionManagerIntegration 25.1.0.3382 (3382)
+[3] 18:27:19:  + QTestIntegrationAddIn: QTestIntegrationAddIn 25.1.0.3382 (3382)
+[3] 18:27:19:  + RemoteControl: RemoteControlAddIn 25.1.0.3382 (3382)
+[3] 18:27:19:  + Reporting: ReportingAddIn 25.1.0.3382 (3382)
+[3] 18:27:19:  + ReportingUI: ReportingUIAddIn 25.1.0.3382 (3382)
+[3] 18:27:19:  + RequirementsManagementAddIn: RequirementsManagement 25.1.0.3382 (3382)
+[3] 18:27:19:  + RequirementsManagementUIAddIn: RequirementsManagementUI 25.1.0.3382 (3382)
+[3] 18:27:19:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 25.1.0.3382 (3382)
+[3] 18:27:19:  + TestCaseDesign: TestCaseDesign 25.1.0.3382 (3382)
+[3] 18:27:19: Opened from Workspace File 'C:\Tosca_Projects\Tosca_Workspaces\Practices Tosca testing\Practices Tosca testing.tws'
+[3] 18:27:19: Trying to authenticate ldap user Manikanta against workspace
+[3] 18:27:19: Error getting ldap domain: The specified domain does not exist or cannot be contacted. DESKTOP-QKBOMQD
+[3] 18:27:19: Error getting NativeID From WindowsUserSystem.Runtime.InteropServices.COMException (0x8007054B): The specified domain either does not exist or could not be contacted.
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.PropertyValueCollection.PopulateList()
+   at System.DirectoryServices.PropertyValueCollection..ctor(DirectoryEntry entry, String propertyName)
+   at System.DirectoryServices.PropertyCollection.get_Item(String propertyName)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.RefreshCache()
+   at Tricentis.TCCore.Base.Ownership.LDAP.LDAPAuthentication.GetNativeID(String username, String domainName, String password, Boolean processIdentityMustMatch, Action`1 ldapsConnectionFailedAction)
+[3] 18:27:19: Failed to authenticate ldap user against workspace
+[3] 18:27:31: Workspace.Login for 'Joshna'succeeded
+[4] 18:27:34:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 18:27:34:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 18:27:34:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 18:27:34:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 18:27:34:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 18:27:34:  ShowStatusInfo: 'Refresh navigation view 'Data Integrity Testing''
+[4] 18:27:34:  ShowStatusInfo: 'Refresh navigation view 'Nop Commerce''
+[4] 18:27:34:  ShowStatusInfo: 'Ready'
+[4] 18:27:34:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 18:27:34:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 18:27:34:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 18:27:34:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 18:27:34:  ShowStatusInfo: 'Refresh detail view 'Data Integrity Testing''
+[4] 18:27:34:  ShowStatusInfo: 'Refresh detail view 'Nop Commerce''
+[4] 18:27:34:  ShowStatusInfo: 'Ready'
+[4] 18:27:34:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 18:27:34:  ShowStatusInfo: 'Refresh all finished'
+[3] 18:27:34: OpenWorkspace took 00:00:15.3227238 to finish
+[3] 18:27:34: File Service is disabled.
+[4] 18:27:39:  ShowStatusInfo: 'Ready'
+[4] 18:28:29:  ShowStatusInfo: '1 object selected'
+[4] 18:28:30:  ShowStatusInfo: 'Ready'
+[4] 18:28:30:  ShowStatusInfo: '1 object selected'
+[4] 18:28:34:  ShowStatusInfo: 'Ready'
+[4] 18:31:35:  ShowStatusInfo: '1 object selected'
+[4] 18:31:35:  ShowStatusInfo: 'Ready'
+[4] 18:31:37:  ShowStatusInfo: 'Checkin all: Connecting to Common Repository (timeout in 5 seconds) ... '
+[4] 18:31:37:  ShowStatusInfo: 'Checkin all: Connecting to Common Repository succeeded'
+[3] 18:31:37: QTestIntegrationAddIn beginning to Export to QTest
+[3] 18:31:37: QTestIntegrationAddIn finished exporting objects to QTest
+[3] 18:31:37: QTestIntegrationAddIn beginning to unlink objects from QTest
+[3] 18:31:37: LinkTcToQTestService grouping testcases by same endpoint
+[3] 18:31:37: UnlinkTestEventService grouping TestEvents by same endpoint
+[3] 18:31:37: QTestIntegrationAddIn finished unlinking objects from QTest
+[3] 18:31:37: ObjectVersioning is enabled
+[3] 18:31:37: ObjectVersioning: Start collecting deleted objects
+[3] 18:31:37: ObjectVersioning: Finished collecting deleted objects
+[3] 18:31:37: ObjectVersioning: Begin creating changeset for 0 clusters.
+[3] 18:31:37: ObjectVersioning: Finished creating changeset.
+[4] 18:31:37:  ShowStatusInfo: 'BeforeTeamTaskCommit'
+[4] 18:31:38:  ShowStatusInfo: 'Ready'
+[4] 18:31:38:  ShowStatusInfo: 'Checkin all finalizing ...'
+[4] 18:31:38:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 18:31:38:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 18:31:38:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 18:31:38:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 18:31:38:  ShowStatusInfo: 'Refresh navigation view 'Data Integrity Testing''
+[4] 18:31:38:  ShowStatusInfo: 'Refresh navigation view 'Nop Commerce''
+[4] 18:31:38:  ShowStatusInfo: 'Ready'
+[4] 18:31:38:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 18:31:38:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 18:31:38:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 18:31:38:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 18:31:38:  ShowStatusInfo: 'Refresh detail view 'Data Integrity Testing''
+[4] 18:31:38:  ShowStatusInfo: 'Refresh detail view 'Nop Commerce''
+[4] 18:31:38:  ShowStatusInfo: 'Ready'
+[4] 18:31:38:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 18:31:38:  ShowStatusInfo: 'Refresh all finished'
+[4] 18:31:38:  ShowStatusInfo: 'Checkin all finished'
+[3] 18:31:38: Task 'Checkin all' finished
+[4] 18:31:43:  ShowStatusInfo: 'Ready'
+[3] 18:32:06: Closing Workspace!
+[3] 18:32:06: Log closed!

@@ -1,0 +1,69 @@
+[3] 16:49:44: Log started for 'C:\Tosca_Projects\Tosca_Workspaces\Practices Tosca testing\Practices Tosca testing.tws'
+[3] 16:49:44: Log level: 4
+[3] 16:49:44: Release: 25.1.0.3382
+[3] 16:49:44: Execution Approval is disabled.
+[3] 16:49:44: No service discovery configured.
+[3] 16:49:44:  + AccessibilityTestingUI: AccessibilityTestingUI 25.1.0.3382 (3382)
+[3] 16:49:44:  + CloudDistributedExecutionAddIn: CloudDistributedExecutionAddIn 25.1.0.3382 (3382)
+[3] 16:49:44:  + DistributedExecutionAddIn: DistributedExecutionAddIn 25.1.0.3382 (3382)
+[3] 16:49:44:  + ElasticExecutionGridAddIn: ElasticExecutionGridAddIn 25.1.0.3382 (3382)
+[3] 16:49:44:  - ExecutionApprovalAddIn: ExecutionApprovalAddIn 25.1.0.3382 (3382)
+[3] 16:49:44:  + ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 25.1.0.3382 (3382)
+[3] 16:49:44:  + ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 25.1.0.3382 (3382)
+[3] 16:49:44:  + IntegrationManagementAddIn: IntegrationManagementAddIn 25.1.0.3382 (3382)
+    + : SAPSolutionManagerIntegration 25.1.0.3382 (3382)
+[3] 16:49:44:  + QTestIntegrationAddIn: QTestIntegrationAddIn 25.1.0.3382 (3382)
+[3] 16:49:44:  + RemoteControl: RemoteControlAddIn 25.1.0.3382 (3382)
+[3] 16:49:44:  + Reporting: ReportingAddIn 25.1.0.3382 (3382)
+[3] 16:49:44:  + ReportingUI: ReportingUIAddIn 25.1.0.3382 (3382)
+[3] 16:49:44:  + RequirementsManagementAddIn: RequirementsManagement 25.1.0.3382 (3382)
+[3] 16:49:44:  + RequirementsManagementUIAddIn: RequirementsManagementUI 25.1.0.3382 (3382)
+[3] 16:49:44:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 25.1.0.3382 (3382)
+[3] 16:49:44:  + TestCaseDesign: TestCaseDesign 25.1.0.3382 (3382)
+[3] 16:49:44: Opened from Workspace File 'C:\Tosca_Projects\Tosca_Workspaces\Practices Tosca testing\Practices Tosca testing.tws'
+[3] 16:49:44: Trying to authenticate ldap user SriJo against workspace
+[3] 16:49:48: Error getting ldap domain: The specified domain does not exist or cannot be contacted. DESKTOP-1OHAOMC
+[3] 16:49:51: Error getting NativeID From WindowsUserSystem.Runtime.InteropServices.COMException (0x8007054B): The specified domain either does not exist or could not be contacted.
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.PropertyValueCollection.PopulateList()
+   at System.DirectoryServices.PropertyValueCollection..ctor(DirectoryEntry entry, String propertyName)
+   at System.DirectoryServices.PropertyCollection.get_Item(String propertyName)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.RefreshCache()
+   at Tricentis.TCCore.Base.Ownership.LDAP.LDAPAuthentication.GetNativeID(String username, String domainName, String password, Boolean processIdentityMustMatch, Action`1 ldapsConnectionFailedAction)
+[3] 16:49:51: Failed to authenticate ldap user against workspace
+[3] 16:50:08: Workspace.Login for 'Admin'failed
+[3] 16:50:20: Workspace.Login for 'Admin'succeeded
+[4] 16:50:22:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 16:50:22:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 16:50:22:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 16:50:22:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 16:50:22:  ShowStatusInfo: 'Refresh navigation view 'Nop Commerce''
+[4] 16:50:22:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 16:50:22:  ShowStatusInfo: 'Ready'
+[4] 16:50:22:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 16:50:22:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 16:50:22:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 16:50:22:  ShowStatusInfo: 'Refresh detail view 'Nop Commerce''
+[4] 16:50:22:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 16:50:22:  ShowStatusInfo: 'Ready'
+[4] 16:50:22:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 16:50:22:  ShowStatusInfo: 'Refresh all finished'
+[3] 16:50:22: OpenWorkspace took 00:00:38.5909521 to finish
+[3] 16:50:22: File Service is disabled.
+[4] 16:50:25:  ShowStatusInfo: '1 object selected'
+[4] 16:50:26:  ShowStatusInfo: 'Ready'
+[4] 16:50:39:  ShowStatusInfo: '1 object selected'
+[4] 16:50:39:  ShowStatusInfo: 'Ready'
+[4] 16:50:40:  ShowStatusInfo: '1 object selected'
+[4] 16:50:40:  ShowStatusInfo: 'Ready'
+[4] 16:50:43:  ShowStatusInfo: '1 object selected'
+[4] 16:50:43:  ShowStatusInfo: 'Ready'
+[4] 16:50:46:  ShowStatusInfo: '1 object selected'
+[4] 16:50:46:  ShowStatusInfo: 'Ready'
+[4] 16:50:48:  ShowStatusInfo: '1 object selected'
+[4] 16:50:49:  ShowStatusInfo: 'Ready'
+[4] 16:50:49:  ShowStatusInfo: '1 object selected'
+[4] 16:50:49:  ShowStatusInfo: 'Ready'
+[3] 16:51:26: Closing Workspace!
+[3] 16:51:26: Log closed!

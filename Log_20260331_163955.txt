@@ -1,0 +1,135 @@
+[3] 16:39:55: Log started for 'C:\Tosca_Projects\Tosca_Workspaces\Practices Tosca testing\Practices Tosca testing.tws'
+[3] 16:39:55: Log level: 4
+[3] 16:39:55: Release: 25.1.0.3382
+[3] 16:39:55: Execution Approval is disabled.
+[3] 16:39:55: No service discovery configured.
+[3] 16:39:55:  + AccessibilityTestingUI: AccessibilityTestingUI 25.1.0.3382 (3382)
+[3] 16:39:55:  + CloudDistributedExecutionAddIn: CloudDistributedExecutionAddIn 25.1.0.3382 (3382)
+[3] 16:39:55:  + DistributedExecutionAddIn: DistributedExecutionAddIn 25.1.0.3382 (3382)
+[3] 16:39:55:  + ElasticExecutionGridAddIn: ElasticExecutionGridAddIn 25.1.0.3382 (3382)
+[3] 16:39:55:  - ExecutionApprovalAddIn: ExecutionApprovalAddIn 25.1.0.3382 (3382)
+[3] 16:39:55:  + ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 25.1.0.3382 (3382)
+[3] 16:39:55:  + ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 25.1.0.3382 (3382)
+[3] 16:39:55:  + IntegrationManagementAddIn: IntegrationManagementAddIn 25.1.0.3382 (3382)
+    + : SAPSolutionManagerIntegration 25.1.0.3382 (3382)
+[3] 16:39:55:  + QTestIntegrationAddIn: QTestIntegrationAddIn 25.1.0.3382 (3382)
+[3] 16:39:55:  + RemoteControl: RemoteControlAddIn 25.1.0.3382 (3382)
+[3] 16:39:55:  + Reporting: ReportingAddIn 25.1.0.3382 (3382)
+[3] 16:39:55:  + ReportingUI: ReportingUIAddIn 25.1.0.3382 (3382)
+[3] 16:39:55:  + RequirementsManagementAddIn: RequirementsManagement 25.1.0.3382 (3382)
+[3] 16:39:55:  + RequirementsManagementUIAddIn: RequirementsManagementUI 25.1.0.3382 (3382)
+[3] 16:39:55:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 25.1.0.3382 (3382)
+[3] 16:39:55:  + TestCaseDesign: TestCaseDesign 25.1.0.3382 (3382)
+[3] 16:39:55: Opened from Workspace File 'C:\Tosca_Projects\Tosca_Workspaces\Practices Tosca testing\Practices Tosca testing.tws'
+[3] 16:39:55: Trying to authenticate ldap user SriJo against workspace
+[3] 16:40:00: Error getting ldap domain: The specified domain does not exist or cannot be contacted. DESKTOP-1OHAOMC
+[3] 16:40:02: Error getting NativeID From WindowsUserSystem.Runtime.InteropServices.COMException (0x8007054B): The specified domain either does not exist or could not be contacted.
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.PropertyValueCollection.PopulateList()
+   at System.DirectoryServices.PropertyValueCollection..ctor(DirectoryEntry entry, String propertyName)
+   at System.DirectoryServices.PropertyCollection.get_Item(String propertyName)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.RefreshCache()
+   at Tricentis.TCCore.Base.Ownership.LDAP.LDAPAuthentication.GetNativeID(String username, String domainName, String password, Boolean processIdentityMustMatch, Action`1 ldapsConnectionFailedAction)
+[3] 16:40:02: Failed to authenticate ldap user against workspace
+[3] 16:40:09: Workspace.Login for 'Joshna'succeeded
+[4] 16:40:12:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 16:40:12:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 16:40:12:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 16:40:12:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 16:40:12:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 16:40:12:  ShowStatusInfo: 'Refresh navigation view 'Data Integrity Testing''
+[4] 16:40:12:  ShowStatusInfo: 'Refresh navigation view 'Nop Commerce''
+[4] 16:40:12:  ShowStatusInfo: 'Ready'
+[4] 16:40:12:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 16:40:12:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 16:40:12:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 16:40:12:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 16:40:12:  ShowStatusInfo: 'Refresh detail view 'Data Integrity Testing''
+[4] 16:40:12:  ShowStatusInfo: 'Refresh detail view 'Nop Commerce''
+[4] 16:40:12:  ShowStatusInfo: 'Ready'
+[4] 16:40:12:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 16:40:12:  ShowStatusInfo: 'Refresh all finished'
+[3] 16:40:12: OpenWorkspace took 00:00:16.7697638 to finish
+[3] 16:40:12: File Service is disabled.
+[4] 16:40:14:  ShowStatusInfo: '1 object selected'
+[4] 16:40:14:  ShowStatusInfo: 'Ready'
+[3] 16:40:32: Task 'Drag this object' started on '/Nop Commerce'
+[4] 16:40:32:  ShowStatusInfo: 'Drag this object'
+[4] 16:40:32:  ShowStatusInfo: 'Drag this object finalizing ... '
+[4] 16:40:32:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 16:40:32:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 16:40:32:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 16:40:32:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 16:40:32:  ShowStatusInfo: 'Refresh navigation view 'Data Integrity Testing''
+[4] 16:40:32:  ShowStatusInfo: 'Refresh navigation view 'Nop Commerce''
+[4] 16:40:32:  ShowStatusInfo: 'Ready'
+[4] 16:40:32:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 16:40:32:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 16:40:32:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 16:40:32:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 16:40:32:  ShowStatusInfo: 'Refresh detail view 'Data Integrity Testing''
+[4] 16:40:32:  ShowStatusInfo: 'Refresh detail view 'Nop Commerce''
+[4] 16:40:32:  ShowStatusInfo: 'Ready'
+[4] 16:40:32:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 16:40:32:  ShowStatusInfo: 'Refresh all finished'
+[4] 16:40:32:  ShowStatusInfo: 'You're dragging the object now. Drop it onto the target.'
+[3] 16:40:32: Task 'Drag this object' finished
+[4] 16:40:37:  ShowStatusInfo: 'Ready'
+[4] 16:40:39:  ShowStatusInfo: '1 object selected'
+[4] 16:40:39:  ShowStatusInfo: 'Ready'
+[3] 16:40:45: Task 'Prepare for Integration' started on '/Nop Commerce'
+[4] 16:40:45:  ShowStatusInfo: 'Prepare for Integration'
+[4] 16:40:47:  ShowStatusInfo: 'Prepare for Integration finalizing ...'
+[4] 16:40:47:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 16:40:47:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 16:40:47:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 16:40:47:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 16:40:47:  ShowStatusInfo: 'Refresh navigation view 'Data Integrity Testing''
+[4] 16:40:47:  ShowStatusInfo: 'Refresh navigation view 'Nop Commerce''
+[4] 16:40:47:  ShowStatusInfo: 'Ready'
+[4] 16:40:47:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 16:40:47:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 16:40:47:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 16:40:47:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 16:40:47:  ShowStatusInfo: 'Refresh detail view 'Data Integrity Testing''
+[4] 16:40:47:  ShowStatusInfo: 'Refresh detail view 'Nop Commerce''
+[4] 16:40:47:  ShowStatusInfo: 'Ready'
+[4] 16:40:47:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 16:40:47:  ShowStatusInfo: 'Refresh all finished'
+[4] 16:40:47:  ShowStatusInfo: 'Prepare for Integration finished'
+[3] 16:40:47: Task 'Prepare for Integration' finished
+[4] 16:40:50:  ShowStatusInfo: '1 object selected'
+[4] 16:40:50:  ShowStatusInfo: 'Ready'
+[4] 16:44:18:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 16:44:18:  ShowStatusInfo: 'Ready'
+[4] 16:44:18:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 16:44:18:  ShowStatusInfo: 'Ready'
+[4] 16:44:18:  ShowStatusInfo: 'Refresh view finished'
+[4] 16:44:21:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 16:44:21:  ShowStatusInfo: 'Ready'
+[4] 16:44:21:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 16:44:21:  ShowStatusInfo: 'Ready'
+[4] 16:44:21:  ShowStatusInfo: 'Refresh view finished'
+[4] 16:44:23:  ShowStatusInfo: 'Refresh navigation view 'Data Integrity Testing''
+[4] 16:44:23:  ShowStatusInfo: 'Ready'
+[4] 16:44:23:  ShowStatusInfo: 'Refresh detail view 'Data Integrity Testing''
+[4] 16:44:23:  ShowStatusInfo: 'Ready'
+[4] 16:44:23:  ShowStatusInfo: 'Refresh view finished'
+[4] 16:44:28:  ShowStatusInfo: 'Ready'
+[4] 16:44:57:  ShowStatusInfo: '1 object selected'
+[4] 16:45:01:  ShowStatusInfo: 'Ready'
+[4] 16:45:01:  ShowStatusInfo: '1 object selected'
+[4] 16:45:02:  ShowStatusInfo: 'Ready'
+[4] 16:45:03:  ShowStatusInfo: '1 object selected'
+[4] 16:45:06:  ShowStatusInfo: 'Ready'
+[4] 16:45:07:  ShowStatusInfo: '1 object selected'
+[4] 16:45:08:  ShowStatusInfo: 'Ready'
+[4] 16:45:09:  ShowStatusInfo: '1 object selected'
+[4] 16:45:10:  ShowStatusInfo: 'Ready'
+[4] 16:45:10:  ShowStatusInfo: '1 object selected'
+[4] 16:45:12:  ShowStatusInfo: 'Ready'
+[4] 16:45:12:  ShowStatusInfo: '1 object selected'
+[4] 16:45:13:  ShowStatusInfo: 'Ready'
+[3] 16:49:08: Closing Workspace!
+[3] 16:49:08: Log closed!

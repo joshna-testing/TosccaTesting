@@ -1,0 +1,222 @@
+[3] 18:36:12: Log started for 'C:\Tosca_Projects\Tosca_Workspaces\Practices Tosca testing\Practices Tosca testing.tws'
+[3] 18:36:12: Log level: 4
+[3] 18:36:12: Release: 25.1.0.3382
+[3] 18:36:12: Execution Approval is disabled.
+[3] 18:36:12: No service discovery configured.
+[3] 18:36:12:  + AccessibilityTestingUI: AccessibilityTestingUI 25.1.0.3382 (3382)
+[3] 18:36:12:  + CloudDistributedExecutionAddIn: CloudDistributedExecutionAddIn 25.1.0.3382 (3382)
+[3] 18:36:12:  + DistributedExecutionAddIn: DistributedExecutionAddIn 25.1.0.3382 (3382)
+[3] 18:36:12:  + ElasticExecutionGridAddIn: ElasticExecutionGridAddIn 25.1.0.3382 (3382)
+[3] 18:36:12:  - ExecutionApprovalAddIn: ExecutionApprovalAddIn 25.1.0.3382 (3382)
+[3] 18:36:12:  + ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 25.1.0.3382 (3382)
+[3] 18:36:12:  + ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 25.1.0.3382 (3382)
+[3] 18:36:12:  + IntegrationManagementAddIn: IntegrationManagementAddIn 25.1.0.3382 (3382)
+    + : SAPSolutionManagerIntegration 25.1.0.3382 (3382)
+[3] 18:36:12:  + QTestIntegrationAddIn: QTestIntegrationAddIn 25.1.0.3382 (3382)
+[3] 18:36:12:  + RemoteControl: RemoteControlAddIn 25.1.0.3382 (3382)
+[3] 18:36:12:  + Reporting: ReportingAddIn 25.1.0.3382 (3382)
+[3] 18:36:12:  + ReportingUI: ReportingUIAddIn 25.1.0.3382 (3382)
+[3] 18:36:12:  + RequirementsManagementAddIn: RequirementsManagement 25.1.0.3382 (3382)
+[3] 18:36:12:  + RequirementsManagementUIAddIn: RequirementsManagementUI 25.1.0.3382 (3382)
+[3] 18:36:12:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 25.1.0.3382 (3382)
+[3] 18:36:12:  + TestCaseDesign: TestCaseDesign 25.1.0.3382 (3382)
+[3] 18:36:12: Opened from Workspace File 'C:\Tosca_Projects\Tosca_Workspaces\Practices Tosca testing\Practices Tosca testing.tws'
+[3] 18:36:13: Trying to authenticate ldap user Manikanta against workspace
+[3] 18:36:13: Error getting ldap domain: The specified domain does not exist or cannot be contacted. DESKTOP-QKBOMQD
+[3] 18:36:13: Error getting NativeID From WindowsUserSystem.Runtime.InteropServices.COMException (0x8007054B): The specified domain either does not exist or could not be contacted.
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.PropertyValueCollection.PopulateList()
+   at System.DirectoryServices.PropertyValueCollection..ctor(DirectoryEntry entry, String propertyName)
+   at System.DirectoryServices.PropertyCollection.get_Item(String propertyName)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.RefreshCache()
+   at Tricentis.TCCore.Base.Ownership.LDAP.LDAPAuthentication.GetNativeID(String username, String domainName, String password, Boolean processIdentityMustMatch, Action`1 ldapsConnectionFailedAction)
+[3] 18:36:13: Failed to authenticate ldap user against workspace
+[3] 18:36:20: Workspace.Login for 'Admin'succeeded
+[2] 18:36:21: CommanderAssemblyResolver: Unable to resolve: System.Collections.Specialized.XmlSerializers, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+[4] 18:36:24:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 18:36:24:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 18:36:24:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 18:36:24:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 18:36:24:  ShowStatusInfo: 'Ready'
+[4] 18:36:24:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 18:36:24:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 18:36:24:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 18:36:24:  ShowStatusInfo: 'Ready'
+[4] 18:36:24:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 18:36:24:  ShowStatusInfo: 'Refresh all finished'
+[3] 18:36:24: OpenWorkspace took 00:00:12.4875574 to finish
+[3] 18:36:24: File Service is disabled.
+[4] 18:36:28:  ShowStatusInfo: 'Ready'
+[4] 18:36:28:  ShowStatusInfo: '1 object selected'
+[4] 18:36:29:  ShowStatusInfo: 'Ready'
+[4] 18:36:33:  ShowStatusInfo: '1 object selected'
+[4] 18:36:37:  ShowStatusInfo: 'Ready'
+[4] 18:36:44:  ShowStatusInfo: '1 object selected'
+[4] 18:36:44:  ShowStatusInfo: 'Ready'
+[4] 18:36:45:  ShowStatusInfo: '1 object selected'
+[4] 18:36:45:  ShowStatusInfo: 'Ready'
+[4] 18:36:47:  ShowStatusInfo: '1 object selected'
+[4] 18:36:47:  ShowStatusInfo: 'Ready'
+[4] 18:38:20:  ShowStatusInfo: '1 object selected'
+[4] 18:38:20:  ShowStatusInfo: 'Ready'
+[4] 18:38:21:  ShowStatusInfo: '1 object selected'
+[4] 18:38:21:  ShowStatusInfo: 'Ready'
+[4] 18:38:22:  ShowStatusInfo: '1 object selected'
+[4] 18:38:22:  ShowStatusInfo: 'Ready'
+[4] 18:38:23:  ShowStatusInfo: '1 object selected'
+[4] 18:38:23:  ShowStatusInfo: 'Ready'
+[4] 18:38:26:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 18:38:26:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 18:38:26:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 18:38:26:  ShowStatusInfo: 'Ready'
+[4] 18:38:26:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 18:38:26:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 18:38:26:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 18:38:26:  ShowStatusInfo: 'Ready'
+[4] 18:38:26:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 18:38:26:  ShowStatusInfo: 'Refresh all finished'
+[4] 18:38:26:  ShowStatusInfo: 'Checkout: Connecting to Common Repository (timeout in 5 seconds) ... '
+[4] 18:38:26:  ShowStatusInfo: 'Checkout: Connecting to Common Repository succeeded'
+[3] 18:38:27: Started update with local revision 1 against common revision 3 with deferred revisions ''
+[3] 18:38:27: Updating to Revision: 3
+[4] 18:38:27:  ShowStatusInfo: 'Checkout: Connecting to Common Repository (timeout in 5 seconds) ... '
+[4] 18:38:27:  ShowStatusInfo: 'Checkout: Connecting to Common Repository succeeded'
+[4] 18:38:27:  ShowStatusInfo: 'BeforeTeamTaskCommit'
+[4] 18:38:27:  ShowStatusInfo: 'Ready'
+[4] 18:38:27:  ShowStatusInfo: 'Checkout finalizing ...'
+[4] 18:38:27:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 18:38:27:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 18:38:27:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 18:38:27:  ShowStatusInfo: 'Ready'
+[4] 18:38:27:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 18:38:27:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 18:38:27:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 18:38:27:  ShowStatusInfo: 'Ready'
+[4] 18:38:27:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 18:38:27:  ShowStatusInfo: 'Refresh all finished'
+[4] 18:38:27:  ShowStatusInfo: 'Checkout finished'
+[3] 18:38:27: Task 'Checkout' finished
+[4] 18:38:29:  ShowStatusInfo: '1 object selected'
+[4] 18:38:29:  ShowStatusInfo: 'Ready'
+[4] 18:38:32:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 18:38:32:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 18:38:32:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 18:38:32:  ShowStatusInfo: 'Ready'
+[4] 18:38:32:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 18:38:32:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 18:38:32:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 18:38:32:  ShowStatusInfo: 'Ready'
+[4] 18:38:32:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 18:38:32:  ShowStatusInfo: 'Refresh all finished'
+[4] 18:38:32:  ShowStatusInfo: 'Checkout Tree: Connecting to Common Repository (timeout in 5 seconds) ... '
+[4] 18:38:32:  ShowStatusInfo: 'Checkout Tree: Connecting to Common Repository succeeded'
+[3] 18:38:32: Started update with local revision 3 against common revision 4 with deferred revisions ''
+[4] 18:38:32:  ShowStatusInfo: 'Checkout Tree: Connecting to Common Repository (timeout in 5 seconds) ... '
+[4] 18:38:32:  ShowStatusInfo: 'Checkout Tree: Connecting to Common Repository succeeded'
+[4] 18:38:32:  ShowStatusInfo: 'Checkout Tree: Collecting objects ... '
+[4] 18:38:35:  ShowStatusInfo: 'BeforeTeamTaskCommit'
+[4] 18:38:35:  ShowStatusInfo: 'Ready'
+[4] 18:38:35:  ShowStatusInfo: 'Checkout Tree finalizing ...'
+[4] 18:38:35:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 18:38:35:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 18:38:35:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 18:38:35:  ShowStatusInfo: 'Ready'
+[4] 18:38:35:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 18:38:35:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 18:38:35:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 18:38:35:  ShowStatusInfo: 'Ready'
+[4] 18:38:35:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 18:38:35:  ShowStatusInfo: 'Refresh all finished'
+[4] 18:38:35:  ShowStatusInfo: 'Checkout Tree finished'
+[3] 18:38:35: Task 'Checkout Tree' finished
+[4] 18:38:38:  ShowStatusInfo: '1 object selected'
+[4] 18:38:38:  ShowStatusInfo: 'Ready'
+[3] 18:38:47: Task 'Create Component Folder' started on ''
+[4] 18:38:47:  ShowStatusInfo: 'Create Component Folder'
+[4] 18:38:47:  ShowStatusInfo: 'Ready'
+[4] 18:38:47:  ShowStatusInfo: 'Component Folder finalizing ...'
+[4] 18:38:47:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 18:38:47:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 18:38:47:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 18:38:47:  ShowStatusInfo: 'Ready'
+[4] 18:38:47:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 18:38:47:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 18:38:47:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 18:38:47:  ShowStatusInfo: 'Ready'
+[4] 18:38:47:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 18:38:47:  ShowStatusInfo: 'Refresh all finished'
+[4] 18:38:47:  ShowStatusInfo: 'Component Folder finished'
+[3] 18:38:47: Task 'Create Component Folder' finished
+[4] 18:38:47:  ShowStatusInfo: 'Ready'
+[4] 18:38:51:  ShowStatusInfo: '1 object selected'
+[4] 18:38:51:  ShowStatusInfo: 'Ready'
+[4] 18:40:18:  ShowStatusInfo: '1 object selected'
+[4] 18:40:23:  ShowStatusInfo: 'Ready'
+[4] 18:40:37:  ShowStatusInfo: '1 object selected'
+[4] 18:40:37:  ShowStatusInfo: 'Ready'
+[4] 18:40:38:  ShowStatusInfo: '1 object selected'
+[4] 18:40:38:  ShowStatusInfo: 'Ready'
+[3] 18:40:39: Task 'Create Modules Folder' started on '/Demo web shop'
+[4] 18:40:39:  ShowStatusInfo: 'Create Modules Folder'
+[4] 18:40:39:  ShowStatusInfo: 'Ready'
+[4] 18:40:39:  ShowStatusInfo: 'Modules Folder finalizing ...'
+[4] 18:40:39:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 18:40:39:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 18:40:39:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 18:40:39:  ShowStatusInfo: 'Ready'
+[4] 18:40:39:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 18:40:39:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 18:40:39:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 18:40:39:  ShowStatusInfo: 'Ready'
+[4] 18:40:39:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 18:40:39:  ShowStatusInfo: 'Refresh all finished'
+[4] 18:40:39:  ShowStatusInfo: 'Modules Folder finished'
+[3] 18:40:39: Task 'Create Modules Folder' finished
+[4] 18:40:39:  ShowStatusInfo: 'Ready'
+[4] 18:40:48:  ShowStatusInfo: '1 object selected'
+[4] 18:40:48:  ShowStatusInfo: 'Ready'
+[4] 18:40:48:  ShowStatusInfo: '1 object selected'
+[4] 18:40:48:  ShowStatusInfo: 'Ready'
+[4] 18:40:53:  ShowStatusInfo: '1 object selected'
+[4] 18:40:53:  ShowStatusInfo: 'Ready'
+[3] 18:40:54: Task 'Create Folder' started on '/Demo web shop/Modules'
+[4] 18:40:54:  ShowStatusInfo: 'Create Folder'
+[4] 18:40:54:  ShowStatusInfo: 'Ready'
+[4] 18:40:54:  ShowStatusInfo: 'Folder finalizing ...'
+[4] 18:40:54:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 18:40:54:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 18:40:54:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 18:40:54:  ShowStatusInfo: 'Ready'
+[4] 18:40:54:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 18:40:54:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 18:40:54:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 18:40:54:  ShowStatusInfo: 'Ready'
+[4] 18:40:54:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 18:40:54:  ShowStatusInfo: 'Refresh all finished'
+[4] 18:40:54:  ShowStatusInfo: 'Folder finished'
+[3] 18:40:54: Task 'Create Folder' finished
+[4] 18:40:54:  ShowStatusInfo: 'Ready'
+[4] 18:41:06:  ShowStatusInfo: '1 object selected'
+[4] 18:41:11:  ShowStatusInfo: 'Ready'
+[4] 18:41:15:  ShowStatusInfo: '1 object selected'
+[4] 18:41:15:  ShowStatusInfo: 'Ready'
+[4] 18:41:16:  ShowStatusInfo: '1 object selected'
+[4] 18:41:17:  ShowStatusInfo: 'Ready'
+[3] 18:41:18: Task 'Create Folder' started on '/Demo web shop/Modules/Home page'
+[4] 18:41:18:  ShowStatusInfo: 'Create Folder'
+[4] 18:41:18:  ShowStatusInfo: 'Ready'
+[4] 18:41:18:  ShowStatusInfo: 'Folder finalizing ...'
+[4] 18:41:18:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 18:41:18:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 18:41:18:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 18:41:18:  ShowStatusInfo: 'Ready'
+[4] 18:41:18:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 18:41:18:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 18:41:18:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 18:41:18:  ShowStatusInfo: 'Ready'
+[4] 18:41:18:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 18:41:18:  ShowStatusInfo: 'Refresh all finished'
+[4] 18:41:18:  ShowStatusInfo: 'Folder finished'
+[3] 18:41:18: Task 'Create Folder' finished
+[4] 18:41:18:  ShowStatusInfo: 'Ready'

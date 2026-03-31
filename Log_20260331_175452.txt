@@ -1,0 +1,236 @@
+[3] 17:54:52: Log started for 'C:\Tosca_Projects\Tosca_Workspaces\Practices Tosca testing\Practices Tosca testing.tws'
+[3] 17:54:52: Log level: 4
+[3] 17:54:52: Release: 25.1.0.3382
+[3] 17:54:52: Execution Approval is disabled.
+[3] 17:54:52: No service discovery configured.
+[3] 17:54:52:  + AccessibilityTestingUI: AccessibilityTestingUI 25.1.0.3382 (3382)
+[3] 17:54:52:  + CloudDistributedExecutionAddIn: CloudDistributedExecutionAddIn 25.1.0.3382 (3382)
+[3] 17:54:52:  + DistributedExecutionAddIn: DistributedExecutionAddIn 25.1.0.3382 (3382)
+[3] 17:54:52:  + ElasticExecutionGridAddIn: ElasticExecutionGridAddIn 25.1.0.3382 (3382)
+[3] 17:54:52:  - ExecutionApprovalAddIn: ExecutionApprovalAddIn 25.1.0.3382 (3382)
+[3] 17:54:52:  + ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 25.1.0.3382 (3382)
+[3] 17:54:52:  + ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 25.1.0.3382 (3382)
+[3] 17:54:52:  + IntegrationManagementAddIn: IntegrationManagementAddIn 25.1.0.3382 (3382)
+    + : SAPSolutionManagerIntegration 25.1.0.3382 (3382)
+[3] 17:54:52:  + QTestIntegrationAddIn: QTestIntegrationAddIn 25.1.0.3382 (3382)
+[3] 17:54:52:  + RemoteControl: RemoteControlAddIn 25.1.0.3382 (3382)
+[3] 17:54:52:  + Reporting: ReportingAddIn 25.1.0.3382 (3382)
+[3] 17:54:52:  + ReportingUI: ReportingUIAddIn 25.1.0.3382 (3382)
+[3] 17:54:52:  + RequirementsManagementAddIn: RequirementsManagement 25.1.0.3382 (3382)
+[3] 17:54:52:  + RequirementsManagementUIAddIn: RequirementsManagementUI 25.1.0.3382 (3382)
+[3] 17:54:52:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 25.1.0.3382 (3382)
+[3] 17:54:52:  + TestCaseDesign: TestCaseDesign 25.1.0.3382 (3382)
+[3] 17:54:52: Opened from Workspace File 'C:\Tosca_Projects\Tosca_Workspaces\Practices Tosca testing\Practices Tosca testing.tws'
+[3] 17:54:52: Trying to authenticate ldap user SriJo against workspace
+[3] 17:54:57: Error getting ldap domain: The specified domain does not exist or cannot be contacted. DESKTOP-1OHAOMC
+[3] 17:54:59: Error getting NativeID From WindowsUserSystem.Runtime.InteropServices.COMException (0x8007054B): The specified domain either does not exist or could not be contacted.
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.PropertyValueCollection.PopulateList()
+   at System.DirectoryServices.PropertyValueCollection..ctor(DirectoryEntry entry, String propertyName)
+   at System.DirectoryServices.PropertyCollection.get_Item(String propertyName)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.RefreshCache()
+   at Tricentis.TCCore.Base.Ownership.LDAP.LDAPAuthentication.GetNativeID(String username, String domainName, String password, Boolean processIdentityMustMatch, Action`1 ldapsConnectionFailedAction)
+[3] 17:54:59: Failed to authenticate ldap user against workspace
+[3] 17:55:08: Workspace.Login for 'Admin'succeeded
+[4] 17:55:10:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 17:55:10:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 17:55:10:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 17:55:10:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 17:55:10:  ShowStatusInfo: 'Refresh navigation view 'Nop Commerce''
+[4] 17:55:10:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 17:55:10:  ShowStatusInfo: 'Ready'
+[4] 17:55:10:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 17:55:11:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 17:55:11:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 17:55:11:  ShowStatusInfo: 'Refresh detail view 'Nop Commerce''
+[4] 17:55:11:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 17:55:11:  ShowStatusInfo: 'Ready'
+[4] 17:55:11:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 17:55:11:  ShowStatusInfo: 'Refresh all finished'
+[3] 17:55:11: OpenWorkspace took 00:00:18.5473017 to finish
+[3] 17:55:11: File Service is disabled.
+[4] 17:55:16:  ShowStatusInfo: 'Ready'
+[4] 17:58:22:  ShowStatusInfo: 'Update all: Connecting to Common Repository (timeout in 5 seconds) ... '
+[4] 17:58:22:  ShowStatusInfo: 'Update all: Connecting to Common Repository succeeded'
+[3] 17:58:22: Started update with local revision 37 against common revision 40 with deferred revisions ''
+[4] 17:58:22:  ShowStatusInfo: 'BeforeTeamTaskCommit'
+[4] 17:58:22:  ShowStatusInfo: 'Ready'
+[4] 17:58:22:  ShowStatusInfo: 'Update all finalizing ...'
+[4] 17:58:22:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 17:58:22:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 17:58:22:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 17:58:22:  ShowStatusInfo: 'Refresh navigation view 'Nop Commerce''
+[4] 17:58:22:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 17:58:22:  ShowStatusInfo: 'Ready'
+[4] 17:58:22:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 17:58:22:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 17:58:22:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 17:58:22:  ShowStatusInfo: 'Refresh detail view 'Nop Commerce''
+[4] 17:58:22:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 17:58:22:  ShowStatusInfo: 'Ready'
+[4] 17:58:22:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 17:58:22:  ShowStatusInfo: 'Refresh all finished'
+[4] 17:58:22:  ShowStatusInfo: 'Update all finished'
+[3] 17:58:22: Task 'Update all' finished
+[4] 17:58:25:  ShowStatusInfo: 'Checkin all: Connecting to Common Repository (timeout in 5 seconds) ... '
+[4] 17:58:25:  ShowStatusInfo: 'Checkin all: Connecting to Common Repository succeeded'
+[3] 17:58:25: QTestIntegrationAddIn beginning to Export to QTest
+[3] 17:58:25: QTestIntegrationAddIn finished exporting objects to QTest
+[3] 17:58:25: QTestIntegrationAddIn beginning to unlink objects from QTest
+[3] 17:58:25: LinkTcToQTestService grouping testcases by same endpoint
+[3] 17:58:25: UnlinkTestEventService grouping TestEvents by same endpoint
+[3] 17:58:25: QTestIntegrationAddIn finished unlinking objects from QTest
+[4] 17:58:34:  ShowStatusInfo: 'Connecting to GitHub repository...'
+[3] 17:58:38: ObjectVersioning is enabled
+[3] 17:58:38: ObjectVersioning: Start collecting deleted objects
+[3] 17:58:38: ObjectVersioning: Finished collecting deleted objects
+[3] 17:58:38: ObjectVersioning: Begin creating changeset for 0 clusters.
+[3] 17:58:38: ObjectVersioning: Finished creating changeset.
+[4] 17:58:38:  ShowStatusInfo: 'BeforeTeamTaskCommit'
+[4] 17:58:38:  ShowStatusInfo: 'Ready'
+[4] 17:58:38:  ShowStatusInfo: 'Checkin all finalizing ...'
+[4] 17:58:38:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 17:58:38:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 17:58:38:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 17:58:38:  ShowStatusInfo: 'Refresh navigation view 'Nop Commerce''
+[4] 17:58:38:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 17:58:38:  ShowStatusInfo: 'Ready'
+[4] 17:58:38:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 17:58:38:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 17:58:38:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 17:58:38:  ShowStatusInfo: 'Refresh detail view 'Nop Commerce''
+[4] 17:58:38:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 17:58:38:  ShowStatusInfo: 'Ready'
+[4] 17:58:38:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 17:58:38:  ShowStatusInfo: 'Refresh all finished'
+[4] 17:58:38:  ShowStatusInfo: 'Checkin all finished'
+[3] 17:58:38: Task 'Checkin all' finished
+[4] 17:58:43:  ShowStatusInfo: 'Ready'
+[4] 17:58:53:  ShowStatusInfo: '1 object selected'
+[4] 17:58:53:  ShowStatusInfo: 'Ready'
+[3] 17:58:57: Task 'Jump to Object' started on ''
+[4] 17:58:57:  ShowStatusInfo: 'Jump to Object'
+[4] 17:58:58:  ShowStatusInfo: 'Ready'
+[4] 17:59:00:  ShowStatusInfo: 'Jump to Object finalizing ...'
+[4] 17:59:00:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 17:59:00:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 17:59:00:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 17:59:00:  ShowStatusInfo: 'Refresh navigation view 'Nop Commerce''
+[4] 17:59:00:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 17:59:00:  ShowStatusInfo: 'Ready'
+[4] 17:59:00:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 17:59:00:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 17:59:00:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 17:59:00:  ShowStatusInfo: 'Refresh detail view 'Nop Commerce''
+[4] 17:59:00:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 17:59:00:  ShowStatusInfo: 'Ready'
+[4] 17:59:00:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 17:59:00:  ShowStatusInfo: 'Refresh all finished'
+[4] 17:59:00:  ShowStatusInfo: 'Jump to Object finished'
+[3] 17:59:00: Task 'Jump to Object' finished
+[4] 17:59:04:  ShowStatusInfo: 'Ready'
+[4] 17:59:05:  ShowStatusInfo: '1 object selected'
+[4] 17:59:05:  ShowStatusInfo: 'Ready'
+[4] 17:59:10:  ShowStatusInfo: '1 object selected'
+[4] 17:59:10:  ShowStatusInfo: 'Ready'
+[4] 17:59:13:  ShowStatusInfo: '1 object selected'
+[4] 17:59:13:  ShowStatusInfo: 'Ready'
+[4] 17:59:13:  ShowStatusInfo: '1 object selected'
+[4] 17:59:13:  ShowStatusInfo: 'Ready'
+[4] 17:59:40:  ShowStatusInfo: '1 object selected'
+[4] 17:59:40:  ShowStatusInfo: 'Ready'
+[4] 17:59:49:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 17:59:49:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 17:59:49:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 17:59:49:  ShowStatusInfo: 'Refresh navigation view 'Nop Commerce''
+[4] 17:59:49:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 17:59:49:  ShowStatusInfo: 'Ready'
+[4] 17:59:49:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 17:59:49:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 17:59:49:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 17:59:49:  ShowStatusInfo: 'Refresh detail view 'Nop Commerce''
+[4] 17:59:49:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 17:59:49:  ShowStatusInfo: 'Ready'
+[4] 17:59:49:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 17:59:49:  ShowStatusInfo: 'Refresh all finished'
+[4] 17:59:49:  ShowStatusInfo: 'Checkout Tree: Connecting to Common Repository (timeout in 5 seconds) ... '
+[4] 17:59:49:  ShowStatusInfo: 'Checkout Tree: Connecting to Common Repository succeeded'
+[3] 17:59:49: Started update with local revision 40 against common revision 41 with deferred revisions ''
+[4] 17:59:49:  ShowStatusInfo: 'Checkout Tree: Connecting to Common Repository (timeout in 5 seconds) ... '
+[4] 17:59:49:  ShowStatusInfo: 'Checkout Tree: Connecting to Common Repository succeeded'
+[4] 17:59:49:  ShowStatusInfo: 'Checkout Tree: Collecting objects ... '
+[4] 17:59:54:  ShowStatusInfo: 'Checkout... (read common cluster info)'
+[4] 17:59:54:  ShowStatusInfo: 'BeforeTeamTaskCommit'
+[4] 17:59:55:  ShowStatusInfo: 'Ready'
+[4] 17:59:55:  ShowStatusInfo: 'Checkout Tree finalizing ...'
+[4] 17:59:55:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 17:59:55:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 17:59:55:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 17:59:55:  ShowStatusInfo: 'Refresh navigation view 'Nop Commerce''
+[4] 17:59:55:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 17:59:55:  ShowStatusInfo: 'Ready'
+[4] 17:59:55:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 17:59:55:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 17:59:55:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 17:59:55:  ShowStatusInfo: 'Refresh detail view 'Nop Commerce''
+[4] 17:59:55:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 17:59:55:  ShowStatusInfo: 'Ready'
+[4] 17:59:55:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 17:59:55:  ShowStatusInfo: 'Refresh all finished'
+[4] 17:59:55:  ShowStatusInfo: 'Checkout Tree finished'
+[3] 17:59:55: Task 'Checkout Tree' finished
+[4] 17:59:57:  ShowStatusInfo: '1 object selected'
+[4] 17:59:57:  ShowStatusInfo: 'Ready'
+[4] 18:00:04:  ShowStatusInfo: '1 object selected'
+[4] 18:00:04:  ShowStatusInfo: 'Ready'
+[4] 18:00:23:  ShowStatusInfo: '1 object selected'
+[4] 18:00:23:  ShowStatusInfo: 'Ready'
+[4] 18:00:24:  ShowStatusInfo: '1 object selected'
+[4] 18:00:24:  ShowStatusInfo: 'Ready'
+[4] 18:05:49:  ShowStatusInfo: '1 object selected'
+[4] 18:05:49:  ShowStatusInfo: 'Ready'
+[4] 18:05:49:  ShowStatusInfo: '1 object selected'
+[4] 18:05:50:  ShowStatusInfo: 'Ready'
+[4] 18:05:52:  ShowStatusInfo: '1 object selected'
+[4] 18:05:53:  ShowStatusInfo: 'Ready'
+[4] 18:05:54:  ShowStatusInfo: '1 object selected'
+[4] 18:05:54:  ShowStatusInfo: 'Ready'
+[4] 18:05:56:  ShowStatusInfo: 'Checkin all: Connecting to Common Repository (timeout in 5 seconds) ... '
+[4] 18:05:56:  ShowStatusInfo: 'Checkin all: Connecting to Common Repository succeeded'
+[3] 18:05:56: QTestIntegrationAddIn beginning to Export to QTest
+[3] 18:05:56: QTestIntegrationAddIn finished exporting objects to QTest
+[3] 18:05:56: QTestIntegrationAddIn beginning to unlink objects from QTest
+[3] 18:05:56: LinkTcToQTestService grouping testcases by same endpoint
+[3] 18:05:56: UnlinkTestEventService grouping TestEvents by same endpoint
+[3] 18:05:56: QTestIntegrationAddIn finished unlinking objects from QTest
+[4] 18:05:56:  ShowStatusInfo: 'Connecting to GitHub repository...'
+[3] 18:06:01: ObjectVersioning is enabled
+[3] 18:06:01: ObjectVersioning: Start collecting deleted objects
+[3] 18:06:01: ObjectVersioning: Finished collecting deleted objects
+[3] 18:06:01: ObjectVersioning: Begin creating changeset for 516 clusters.
+[3] 18:06:01: ObjectVersioning: Finished creating changeset.
+[4] 18:06:01:  ShowStatusInfo: 'BeforeTeamTaskCommit'
+[4] 18:06:01:  ShowStatusInfo: 'Ready'
+[4] 18:06:02:  ShowStatusInfo: 'Checkin all finalizing ...'
+[4] 18:06:02:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 18:06:02:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 18:06:02:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 18:06:02:  ShowStatusInfo: 'Refresh navigation view 'Nop Commerce''
+[4] 18:06:02:  ShowStatusInfo: 'Refresh navigation view 'Practices Tosca testing''
+[4] 18:06:02:  ShowStatusInfo: 'Ready'
+[4] 18:06:02:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 18:06:02:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 18:06:02:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 18:06:02:  ShowStatusInfo: 'Refresh detail view 'Nop Commerce''
+[4] 18:06:02:  ShowStatusInfo: 'Refresh detail view 'Practices Tosca testing''
+[4] 18:06:02:  ShowStatusInfo: 'Ready'
+[4] 18:06:02:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 18:06:02:  ShowStatusInfo: 'Refresh all finished'
+[4] 18:06:02:  ShowStatusInfo: 'Checkin all finished'
+[3] 18:06:02: Task 'Checkin all' finished
+[4] 18:06:07:  ShowStatusInfo: 'Ready'
+[4] 18:07:50:  ShowStatusInfo: '1 object selected'
+[4] 18:07:50:  ShowStatusInfo: 'Ready'
+[3] 18:22:01: Closing Workspace!
+[3] 18:22:01: Log closed!

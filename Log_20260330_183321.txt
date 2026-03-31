@@ -1,0 +1,219 @@
+[3] 18:33:21: Log started for 'C:\Tosca_Projects\Tosca_Workspaces\Practices Tosca testing\Practices Tosca testing.tws'
+[3] 18:33:21: Log level: 4
+[3] 18:33:21: Release: 25.1.0.3382
+[3] 18:33:21: Execution Approval is disabled.
+[3] 18:33:21: No service discovery configured.
+[3] 18:33:21:  + AccessibilityTestingUI: AccessibilityTestingUI 25.1.0.3382 (3382)
+[3] 18:33:21:  + CloudDistributedExecutionAddIn: CloudDistributedExecutionAddIn 25.1.0.3382 (3382)
+[3] 18:33:21:  + DistributedExecutionAddIn: DistributedExecutionAddIn 25.1.0.3382 (3382)
+[3] 18:33:21:  + ElasticExecutionGridAddIn: ElasticExecutionGridAddIn 25.1.0.3382 (3382)
+[3] 18:33:21:  - ExecutionApprovalAddIn: ExecutionApprovalAddIn 25.1.0.3382 (3382)
+[3] 18:33:21:  + ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 25.1.0.3382 (3382)
+[3] 18:33:21:  + ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 25.1.0.3382 (3382)
+[3] 18:33:21:  + IntegrationManagementAddIn: IntegrationManagementAddIn 25.1.0.3382 (3382)
+    + : SAPSolutionManagerIntegration 25.1.0.3382 (3382)
+[3] 18:33:21:  + QTestIntegrationAddIn: QTestIntegrationAddIn 25.1.0.3382 (3382)
+[3] 18:33:21:  + RemoteControl: RemoteControlAddIn 25.1.0.3382 (3382)
+[3] 18:33:21:  + Reporting: ReportingAddIn 25.1.0.3382 (3382)
+[3] 18:33:21:  + ReportingUI: ReportingUIAddIn 25.1.0.3382 (3382)
+[3] 18:33:21:  + RequirementsManagementAddIn: RequirementsManagement 25.1.0.3382 (3382)
+[3] 18:33:21:  + RequirementsManagementUIAddIn: RequirementsManagementUI 25.1.0.3382 (3382)
+[3] 18:33:21:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 25.1.0.3382 (3382)
+[3] 18:33:21:  + TestCaseDesign: TestCaseDesign 25.1.0.3382 (3382)
+[3] 18:33:21: Opened from Workspace File 'C:\Tosca_Projects\Tosca_Workspaces\Practices Tosca testing\Practices Tosca testing.tws'
+[3] 18:33:21: Trying to authenticate ldap user Manikanta against workspace
+[3] 18:33:21: Error getting ldap domain: The specified domain does not exist or cannot be contacted. DESKTOP-QKBOMQD
+[3] 18:33:21: Error getting NativeID From WindowsUserSystem.Runtime.InteropServices.COMException (0x8007054B): The specified domain either does not exist or could not be contacted.
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.PropertyValueCollection.PopulateList()
+   at System.DirectoryServices.PropertyValueCollection..ctor(DirectoryEntry entry, String propertyName)
+   at System.DirectoryServices.PropertyCollection.get_Item(String propertyName)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.RefreshCache()
+   at Tricentis.TCCore.Base.Ownership.LDAP.LDAPAuthentication.GetNativeID(String username, String domainName, String password, Boolean processIdentityMustMatch, Action`1 ldapsConnectionFailedAction)
+[3] 18:33:21: Failed to authenticate ldap user against workspace
+[3] 18:33:30: Workspace.Login for 'Joshna'succeeded
+[4] 18:33:32:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 18:33:32:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 18:33:32:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 18:33:32:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 18:33:32:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 18:33:32:  ShowStatusInfo: 'Refresh navigation view 'Data Integrity Testing''
+[4] 18:33:32:  ShowStatusInfo: 'Refresh navigation view 'Nop Commerce''
+[4] 18:33:32:  ShowStatusInfo: 'Ready'
+[4] 18:33:32:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 18:33:32:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 18:33:32:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 18:33:32:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 18:33:32:  ShowStatusInfo: 'Refresh detail view 'Data Integrity Testing''
+[4] 18:33:32:  ShowStatusInfo: 'Refresh detail view 'Nop Commerce''
+[4] 18:33:32:  ShowStatusInfo: 'Ready'
+[4] 18:33:33:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 18:33:33:  ShowStatusInfo: 'Refresh all finished'
+[3] 18:33:33: OpenWorkspace took 00:00:11.7662187 to finish
+[3] 18:33:33: File Service is disabled.
+[4] 18:33:36:  ShowStatusInfo: '1 object selected'
+[4] 18:33:36:  ShowStatusInfo: 'Ready'
+[4] 18:33:39:  ShowStatusInfo: 'Checkin all: Connecting to Common Repository (timeout in 5 seconds) ... '
+[4] 18:33:39:  ShowStatusInfo: 'Checkin all: Connecting to Common Repository succeeded'
+[3] 18:33:39: QTestIntegrationAddIn beginning to Export to QTest
+[3] 18:33:39: QTestIntegrationAddIn finished exporting objects to QTest
+[3] 18:33:39: QTestIntegrationAddIn beginning to unlink objects from QTest
+[3] 18:33:39: LinkTcToQTestService grouping testcases by same endpoint
+[3] 18:33:39: UnlinkTestEventService grouping TestEvents by same endpoint
+[3] 18:33:39: QTestIntegrationAddIn finished unlinking objects from QTest
+[3] 18:33:39: ObjectVersioning is enabled
+[3] 18:33:39: ObjectVersioning: Start collecting deleted objects
+[3] 18:33:39: ObjectVersioning: Finished collecting deleted objects
+[3] 18:33:39: ObjectVersioning: Begin creating changeset for 0 clusters.
+[3] 18:33:39: ObjectVersioning: Finished creating changeset.
+[4] 18:33:39:  ShowStatusInfo: 'BeforeTeamTaskCommit'
+[4] 18:33:40:  ShowStatusInfo: 'Ready'
+[4] 18:33:40:  ShowStatusInfo: 'Checkin all finalizing ...'
+[4] 18:33:40:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 18:33:41:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 18:33:41:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 18:33:41:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 18:33:41:  ShowStatusInfo: 'Refresh navigation view 'Data Integrity Testing''
+[4] 18:33:41:  ShowStatusInfo: 'Refresh navigation view 'Nop Commerce''
+[4] 18:33:41:  ShowStatusInfo: 'Ready'
+[4] 18:33:41:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 18:33:41:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 18:33:41:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 18:33:41:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 18:33:41:  ShowStatusInfo: 'Refresh detail view 'Data Integrity Testing''
+[4] 18:33:41:  ShowStatusInfo: 'Refresh detail view 'Nop Commerce''
+[4] 18:33:41:  ShowStatusInfo: 'Ready'
+[4] 18:33:41:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 18:33:41:  ShowStatusInfo: 'Refresh all finished'
+[4] 18:33:41:  ShowStatusInfo: 'Checkin all finished'
+[3] 18:33:41: Task 'Checkin all' finished
+[4] 18:33:44:  ShowStatusInfo: 'Ready'
+[4] 18:33:44:  ShowStatusInfo: '1 object selected'
+[4] 18:33:45:  ShowStatusInfo: 'Ready'
+[4] 18:33:45:  ShowStatusInfo: '1 object selected'
+[4] 18:33:46:  ShowStatusInfo: 'Ready'
+[4] 18:39:32:  ShowStatusInfo: '1 object selected'
+[4] 18:39:32:  ShowStatusInfo: 'Ready'
+[4] 18:39:33:  ShowStatusInfo: '1 object selected'
+[4] 18:39:33:  ShowStatusInfo: 'Ready'
+[4] 18:39:55:  ShowStatusInfo: '1 object selected'
+[4] 18:39:55:  ShowStatusInfo: 'Ready'
+[4] 18:39:58:  ShowStatusInfo: 'Checkin all: Connecting to Common Repository (timeout in 5 seconds) ... '
+[4] 18:39:58:  ShowStatusInfo: 'Checkin all: Connecting to Common Repository succeeded'
+[3] 18:39:58: QTestIntegrationAddIn beginning to Export to QTest
+[3] 18:39:58: QTestIntegrationAddIn finished exporting objects to QTest
+[3] 18:39:58: QTestIntegrationAddIn beginning to unlink objects from QTest
+[3] 18:39:58: LinkTcToQTestService grouping testcases by same endpoint
+[3] 18:39:58: UnlinkTestEventService grouping TestEvents by same endpoint
+[3] 18:39:58: QTestIntegrationAddIn finished unlinking objects from QTest
+[3] 18:39:58: ObjectVersioning is enabled
+[3] 18:39:58: ObjectVersioning: Start collecting deleted objects
+[3] 18:39:58: ObjectVersioning: Finished collecting deleted objects
+[3] 18:39:58: ObjectVersioning: Begin creating changeset for 0 clusters.
+[3] 18:39:58: ObjectVersioning: Finished creating changeset.
+[4] 18:39:58:  ShowStatusInfo: 'BeforeTeamTaskCommit'
+[4] 18:39:59:  ShowStatusInfo: 'Ready'
+[4] 18:39:59:  ShowStatusInfo: 'Checkin all finalizing ...'
+[4] 18:39:59:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 18:39:59:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 18:39:59:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 18:39:59:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 18:39:59:  ShowStatusInfo: 'Refresh navigation view 'Data Integrity Testing''
+[4] 18:39:59:  ShowStatusInfo: 'Refresh navigation view 'Nop Commerce''
+[4] 18:39:59:  ShowStatusInfo: 'Ready'
+[4] 18:39:59:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 18:39:59:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 18:39:59:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 18:39:59:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 18:39:59:  ShowStatusInfo: 'Refresh detail view 'Data Integrity Testing''
+[4] 18:39:59:  ShowStatusInfo: 'Refresh detail view 'Nop Commerce''
+[4] 18:40:00:  ShowStatusInfo: 'Ready'
+[4] 18:40:00:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 18:40:00:  ShowStatusInfo: 'Refresh all finished'
+[4] 18:40:00:  ShowStatusInfo: 'Checkin all finished'
+[3] 18:40:00: Task 'Checkin all' finished
+[4] 18:40:05:  ShowStatusInfo: 'Ready'
+[4] 18:40:09:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 18:40:09:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 18:40:09:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 18:40:09:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 18:40:09:  ShowStatusInfo: 'Refresh navigation view 'Data Integrity Testing''
+[4] 18:40:09:  ShowStatusInfo: 'Refresh navigation view 'Nop Commerce''
+[4] 18:40:09:  ShowStatusInfo: 'Ready'
+[4] 18:40:09:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 18:40:09:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 18:40:09:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 18:40:09:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 18:40:09:  ShowStatusInfo: 'Refresh detail view 'Data Integrity Testing''
+[4] 18:40:09:  ShowStatusInfo: 'Refresh detail view 'Nop Commerce''
+[4] 18:40:09:  ShowStatusInfo: 'Ready'
+[4] 18:40:09:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 18:40:09:  ShowStatusInfo: 'Refresh all finished'
+[4] 18:40:09:  ShowStatusInfo: 'Checkout: Connecting to Common Repository (timeout in 5 seconds) ... '
+[4] 18:40:09:  ShowStatusInfo: 'Checkout: Connecting to Common Repository succeeded'
+[3] 18:40:09: Started update with local revision 11 against common revision 16 with deferred revisions ''
+[3] 18:40:10: Updating to Revision: 13
+[4] 18:40:10:  ShowStatusInfo: 'Update All: Synchronizing ChangeSets: Forward Changes : 42.53 %'
+[3] 18:40:10: Updating to Revision: 13
+[4] 18:40:10:  ShowStatusInfo: 'Checkout: Connecting to Common Repository (timeout in 5 seconds) ... '
+[4] 18:40:10:  ShowStatusInfo: 'Checkout: Connecting to Common Repository succeeded'
+[4] 18:40:10:  ShowStatusInfo: 'BeforeTeamTaskCommit'
+[4] 18:40:11:  ShowStatusInfo: 'Ready'
+[4] 18:40:11:  ShowStatusInfo: 'Checkout finalizing ...'
+[4] 18:40:11:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 18:40:11:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 18:40:11:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 18:40:11:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 18:40:11:  ShowStatusInfo: 'Refresh navigation view 'Data Integrity Testing''
+[4] 18:40:11:  ShowStatusInfo: 'Refresh navigation view 'Nop Commerce''
+[4] 18:40:11:  ShowStatusInfo: 'Ready'
+[4] 18:40:11:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 18:40:11:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 18:40:11:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 18:40:11:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 18:40:11:  ShowStatusInfo: 'Refresh detail view 'Data Integrity Testing''
+[4] 18:40:11:  ShowStatusInfo: 'Refresh detail view 'Nop Commerce''
+[4] 18:40:11:  ShowStatusInfo: 'Ready'
+[4] 18:40:11:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 18:40:11:  ShowStatusInfo: 'Refresh all finished'
+[4] 18:40:11:  ShowStatusInfo: 'Checkout finished'
+[3] 18:40:11: Task 'Checkout' finished
+[4] 18:40:16:  ShowStatusInfo: 'Ready'
+[4] 18:40:18:  ShowStatusInfo: 'Checkin all: Connecting to Common Repository (timeout in 5 seconds) ... '
+[4] 18:40:18:  ShowStatusInfo: 'Checkin all: Connecting to Common Repository succeeded'
+[3] 18:40:18: QTestIntegrationAddIn beginning to Export to QTest
+[3] 18:40:18: QTestIntegrationAddIn finished exporting objects to QTest
+[3] 18:40:18: QTestIntegrationAddIn beginning to unlink objects from QTest
+[3] 18:40:18: LinkTcToQTestService grouping testcases by same endpoint
+[3] 18:40:18: UnlinkTestEventService grouping TestEvents by same endpoint
+[3] 18:40:18: QTestIntegrationAddIn finished unlinking objects from QTest
+[3] 18:40:18: ObjectVersioning is enabled
+[3] 18:40:18: ObjectVersioning: Start collecting deleted objects
+[3] 18:40:18: ObjectVersioning: Finished collecting deleted objects
+[3] 18:40:18: ObjectVersioning: Begin creating changeset for 1 clusters.
+[3] 18:40:18: ObjectVersioning: Finished creating changeset.
+[4] 18:40:18:  ShowStatusInfo: 'BeforeTeamTaskCommit'
+[4] 18:40:18:  ShowStatusInfo: 'Ready'
+[4] 18:40:18:  ShowStatusInfo: 'Checkin all finalizing ...'
+[4] 18:40:18:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 18:40:18:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 18:40:18:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 18:40:18:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 18:40:18:  ShowStatusInfo: 'Refresh navigation view 'Data Integrity Testing''
+[4] 18:40:18:  ShowStatusInfo: 'Refresh navigation view 'Nop Commerce''
+[4] 18:40:18:  ShowStatusInfo: 'Ready'
+[4] 18:40:18:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 18:40:18:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 18:40:18:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 18:40:18:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 18:40:18:  ShowStatusInfo: 'Refresh detail view 'Data Integrity Testing''
+[4] 18:40:18:  ShowStatusInfo: 'Refresh detail view 'Nop Commerce''
+[4] 18:40:19:  ShowStatusInfo: 'Ready'
+[4] 18:40:19:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 18:40:19:  ShowStatusInfo: 'Refresh all finished'
+[4] 18:40:19:  ShowStatusInfo: 'Checkin all finished'
+[3] 18:40:19: Task 'Checkin all' finished
+[4] 18:40:24:  ShowStatusInfo: 'Ready'
+[3] 18:41:41: Closing Workspace!
+[3] 18:41:41: Log closed!
