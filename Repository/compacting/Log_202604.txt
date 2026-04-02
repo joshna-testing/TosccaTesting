@@ -1,0 +1,10 @@
+[Info] 01-04-2026 13:00:05: 30/100 - Defragmenting Data - [estimated time left 2 s]
+[Info] 01-04-2026 13:00:05: 58/100 - Defragmenting Data - [estimated time left 1 s]
+[Info] 01-04-2026 13:00:06: Compacting started
+[Info] 01-04-2026 13:00:06: 85/100 - Defragmenting Data - [estimated time left 0 s]
+[Info] 01-04-2026 13:00:07: 99/100 - Defragmenting Data - [estimated time left 0 s]
+[Info] 01-04-2026 13:00:08: 99/100 - Defragmenting Data - [estimated time left 0 s]
+[Info] 01-04-2026 13:00:09: Compacting Workspace - Defragmentation finished in 00:00:01.0082373, database size: 19144704
+[Info] 01-04-2026 13:00:09: Compacting Workspace - Recalculating Index Statistics finished in 00:00:00.0604345, database size: 19144704
+[Info] 01-04-2026 13:00:09: Compacting finished
+[Info] 01-04-2026 13:00:09: 99/100 - Defragmenting Data - [estimated time left 0 s]

@@ -17,8 +17,8 @@
     <DatabaseSchema />
   </CommonRepository>
   <DefaultUser>
-    <UserName>Admin</UserName>
-    <UserSurrogate>01KHRBV25P8P4JAXY8YSFHWC9C</UserSurrogate>
+    <UserName>Joshna</UserName>
+    <UserSurrogate>01KJYJ8PFAF11JF4RMPNJXB67A</UserSurrogate>
   </DefaultUser>
   <TCWorkspaceID>a58dfcbe-fcea-4e0f-bbd9-48b914d9fcf6</TCWorkspaceID>
   <TCCommonRepositoryID>18e141bd-e013-4429-a9a2-5b85ba0ab839</TCCommonRepositoryID>
